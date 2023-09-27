@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
     background-color: #1A1A1B;
     box-sizing: border-box;
 }
@@ -57,7 +57,6 @@ ul.navb li a:hover {
 }
 
 .hello {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #ffffff;
     border-radius: 9px;
     padding: 20px;
@@ -73,7 +72,6 @@ ul.navb li a:hover {
     margin-top: 40px;
     float: left;
     color: #ffffff;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-bottom: 50px;
 }
 
@@ -109,8 +107,7 @@ ul.navb li a:hover {
 
 .column.middle {
     width: 30%;
-    margin-left:50px;
-    margin-right:20px ;
+    padding-left: 70px;
     border-right:1.5px solid #4D4D4D;
 }
 
@@ -121,13 +118,16 @@ ul.navb li a:hover {
 .column.right {
     width: 30%;
     margin-top: 80px;
+    margin-left:30px;
 }
 
 @media screen and (max-width: 600px) {
-  .column.left, .column.middle,.column.right {
-    width: 100%;
+    .column.left, .column.middle,.column.right {
+      width: 100% ;
   }
 }
 
-
+.title {
+    color: #ffffff;
+}
    
