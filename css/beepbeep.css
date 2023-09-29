@@ -153,12 +153,6 @@ ul.navb li a:hover {
   }
 }
 
-@media screen and (min-width: 900px) {
-    .column.middle{
-      width: 100% ;
-      border-right:none;
-  }
-}
 .activitydetail {
     color :#ffffff;   
 }
