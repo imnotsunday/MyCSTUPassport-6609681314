@@ -158,34 +158,3 @@ ul.navb li a:hover {
     text-decoration: underline;
     padding: 7px ;
 }
-
-@media screen and (max-width: 1300px) {
-    .column.middle,.column.right {
-      width: 100% ;
-      text-align:center ;
-      margin:0px;
-      padding-left:0px;
-      border-right:none;
-  }
-}
-
-@media screen and (max-width: 1300px) {
-    .column.left {
-      width: 100% ;
-      text-align:center ;
-      margin:0px;
-      padding:150 150px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-    .column.middle,.column.right,.column.left,.detail {
-      width: 100% ;
-      text-align:center ;
-      margin:0px;
-      padding:0px;
-      border-right:none;
-  }
-  
-}
-
